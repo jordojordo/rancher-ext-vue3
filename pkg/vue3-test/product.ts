@@ -21,7 +21,7 @@ export function init($plugin: IPlugin, store: any) {
     to:      {
       name:   `c-cluster-${ Product.name }-${ CUSTOM_PAGE_NAME }`,
       params: { product: Product.name }
-    } as LocationConfig
+    } as any
   });
 
   // defining a k8s resource as page
