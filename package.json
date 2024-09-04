@@ -5,7 +5,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@rancher/shell": "^99.99.99",
+    "@rancher/shell": "^3.0.0-rc.1",
     "cache-loader": "^4.1.0",
     "color": "4.2.3",
     "ip": "2.0.1",
@@ -36,5 +36,6 @@
     "serve-pkgs": "./node_modules/@rancher/shell/scripts/serve-pkgs",
     "publish-pkgs": "./node_modules/@rancher/shell/scripts/extension/publish",
     "parse-tag-name": "./node_modules/@rancher/shell/scripts/extension/parse-tag-name"
-  }
+  },
+  "packageManager": "yarn@4.4.1+sha256.920b4530755296dc2ce8b4351f057d4a26429524fcb2789d277560d94837c27e"
 }
