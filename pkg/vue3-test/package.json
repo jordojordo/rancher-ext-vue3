@@ -5,8 +5,9 @@
   "private": false,
   "rancher": {
     "annotations": {
-      "catalog.cattle.io/rancher-version": ">= v2.9.1",
-      "catalog.cattle.io/ui-extensions-version": ">= 99.99.0"
+      "catalog.cattle.io/kube-version": ">= v1.31.0",
+      "catalog.cattle.io/rancher-version": "<= v2.9.1",
+      "catalog.cattle.io/ui-extensions-version": ">= 3.0.0"
     }
   },
   "scripts": {},

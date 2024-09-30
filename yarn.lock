@@ -3890,9 +3890,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rancher/shell@npm:^3.0.0-rc.1":
-  version: 3.0.0-rc.1
-  resolution: "@rancher/shell@npm:3.0.0-rc.1"
+"@rancher/shell@npm:^3.0.0-rc.2":
+  version: 3.0.0-rc.2
+  resolution: "@rancher/shell@npm:3.0.0-rc.2"
   dependencies:
     "@aws-sdk/client-ec2": "npm:3.1.0"
     "@aws-sdk/client-eks": "npm:3.1.0"
@@ -4008,7 +4008,7 @@ __metadata:
     xterm-addon-web-links: "npm:0.9.0"
     xterm-addon-webgl: "npm:0.16.0"
     yarn: "npm:1.22.18"
-  checksum: 10c0/58752ed49ecf6787b4607d991522fe3e54283c709fadc915be8e394ddbad879bb32ba31e5d123c935af8b4c119aa977d9c6239a3d90e0ba9d379871fed2ae4c8
+  checksum: 10c0/01ef9d19fc7cbc8c6bda49e53f9deb88f58bc6639bb7da29f86305ba445d56cda539aec440c545322f08ed3023d8f0289a2cfa72e87d3aa8a24997bbab2301c6
   languageName: node
   linkType: hard
 
@@ -18305,7 +18305,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vue3-test@workspace:."
   dependencies:
-    "@rancher/shell": "npm:^3.0.0-rc.1"
+    "@rancher/shell": "npm:^3.0.0-rc.2"
     cache-loader: "npm:^4.1.0"
     color: "npm:4.2.3"
     ip: "npm:2.0.1"
