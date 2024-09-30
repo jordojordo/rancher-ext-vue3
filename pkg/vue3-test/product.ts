@@ -1,8 +1,9 @@
+import { RouteLocationRaw } from 'vue-router';
 import { IPlugin, LocationConfig } from '@shell/core/types';
 
 import { Product } from './types/product';
 
-export function init($plugin: IPlugin, store: any) {
+export function init($plugin: any, store: any) {
   const UIPLUGIN_RESOURCE = 'catalog.cattle.io.uiplugin';
   const CUSTOM_PAGE_NAME = 'page1';
 
@@ -18,40 +19,41 @@ export function init($plugin: IPlugin, store: any) {
     icon:    'gear',
     inStore: 'cluster', // this is what defines the extension as a cluster-level product
     weight:  100,
-    to:      {
-      name:   `c-cluster-${ Product.name }-${ CUSTOM_PAGE_NAME }`,
-      params: { product: Product.name }
-    } as any
+    to:      `c-cluster-${ Product.name }-${ CUSTOM_PAGE_NAME }` as any
   });
 
   // defining a k8s resource as page
-  configureType(UIPLUGIN_RESOURCE, {
-    displayName: 'test-display-name',
-    isCreatable: false,
-    isEditable:  true,
-    isRemovable: true,
-    showAge:     true,
-    showState:   true,
-    canYaml:     true,
-    customRoute: {
-      name:   `c-cluster-${ Product.name }-resource`,
-      params: {
-        product:  Product.name,
-        resource: UIPLUGIN_RESOURCE
-      }
-    }
-  });
-
+  // configureType(UIPLUGIN_RESOURCE, {
+  //   displayName: 'test-display-name',
+  //   isCreatable: false,
+  //   isEditable:  true,
+  //   isRemovable: true,
+  //   showAge:     true,
+  //   showState:   true,
+  //   canYaml:     true,
+  //   customRoute: {
+  //     name:   `c-cluster-${ Product.name }-resource`,
+  //     path:  `/c/:cluster/${ Product.name }/:resource`,
+  //     params: {
+  //       product:  Product.name,
+  //       resource: UIPLUGIN_RESOURCE
+  //     }
+  //   }
+  // });
+  
   // creating a custom page
   virtualType({
-    labelKey: 'generic.info',
+    label: 'generic.info',
     name:     CUSTOM_PAGE_NAME,
+    overview:    true,
     route:    {
       name:   `c-cluster-${ Product.name }-${ CUSTOM_PAGE_NAME }`,
-      params: { product: Product.name }
+      params: { product: Product.name },
+      meta:   { pkg: Product.name, product: Product.name }
     }
   });
 
   // registering the defined pages as side-menu entries
   basicType([UIPLUGIN_RESOURCE, CUSTOM_PAGE_NAME]);
+  // basicType([UIPLUGIN_RESOURCE]);
 }
