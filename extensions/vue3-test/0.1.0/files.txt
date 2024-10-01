@@ -1,0 +1,3 @@
+plugin/package.json
+plugin/vue3-test-0.1.0.umd.min.js
+plugin/vue3-test-0.1.0.umd.min.js.map
