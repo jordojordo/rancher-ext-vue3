@@ -1,9 +1,8 @@
 name: Build and Release Extension Catalog
 
 on:
-  workflow_dispatch:
-  # release:
-  #   types: [released]
+  release:
+    types: [released]
 
 defaults:
   run:
@@ -12,7 +11,7 @@ defaults:
 
 jobs:
   build-extension-catalog:
-    uses: rancher/dashboard/.github/workflows/build-extension-catalog.yml@master
+    uses: jordojordo/dashboard/.github/workflows/build-extension-catalog.yml@vue3-extensions-reusable-workflow
     permissions:
       actions: write
       contents: read
