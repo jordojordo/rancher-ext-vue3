@@ -1,6 +1,4 @@
-import { IPlugin } from '@shell/core/types';
-
-export function init($plugin: IPlugin, store: any) {
+export function init($plugin: any, store: any) {
   const YOUR_PRODUCT_NAME = 'myProductName';
   const BLANK_CLUSTER = '_';
 
