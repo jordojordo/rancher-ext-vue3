@@ -1,7 +1,7 @@
 {
   "name": "vue3-test",
   "description": "vue3-test plugin",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "private": false,
   "rancher": {
     "annotations": {
