@@ -1,8 +1,8 @@
 name: Build and Release Extension
 
 on:
-  release:
-    types: [published]
+  # release:
+  #   types: [published]
 
 jobs:
   build-and-release:
