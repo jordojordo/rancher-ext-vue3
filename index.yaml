@@ -33,6 +33,26 @@ entries:
       catalog.cattle.io/ui-component: plugins
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0'
     apiVersion: v2
+    appVersion: 0.3.0
+    created: "2024-10-04T18:18:03.81391224Z"
+    description: vue3-test plugin
+    digest: f09b87d5b1eff5f3c2efcef6ae819259b4c52dc514f266754cc9a073668e4da7
+    name: vue3-test
+    type: application
+    urls:
+    - assets/vue3-test/vue3-test-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= v1.16.0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.9.1'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0'
+    apiVersion: v2
     appVersion: 0.2.0
     created: "2024-10-03T17:31:57.26039382Z"
     description: vue3-test plugin
@@ -102,4 +122,4 @@ entries:
     urls:
     - assets/vue3-test/vue3-test-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-03T17:58:10.705594061Z"
+generated: "2024-10-04T18:18:03.813464997Z"
