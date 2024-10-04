@@ -3890,9 +3890,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rancher/shell@npm:^3.0.0-rc.2":
-  version: 3.0.0-rc.2
-  resolution: "@rancher/shell@npm:3.0.0-rc.2"
+"@rancher/shell@npm:^3.0.0-rc.3":
+  version: 3.0.0-rc.3
+  resolution: "@rancher/shell@npm:3.0.0-rc.3"
   dependencies:
     "@aws-sdk/client-ec2": "npm:3.1.0"
     "@aws-sdk/client-eks": "npm:3.1.0"
@@ -3923,7 +3923,7 @@ __metadata:
     browser-env: "npm:3.3.0"
     clipboard-polyfill: "npm:4.0.1"
     codemirror: "npm:>=5.64.0 <6"
-    codemirror-editor-vue3: "npm:^2.7.0"
+    codemirror-editor-vue3: "npm:2.7.1"
     cookie: "npm:0.5.0"
     cookie-universal: "npm:2.2.2"
     core-js: "npm:3.25.3"
@@ -3991,7 +3991,7 @@ __metadata:
     url-parse: "npm:1.5.10"
     vue: "npm:~3.2.13"
     vue-resize: "npm:0.4.5"
-    vue-router: "npm:~4.0.3"
+    vue-router: "npm:4.4.3"
     vue-select: "npm:4.0.0-beta.6"
     vue-server-renderer: "npm:2.7.16"
     vue-template-compiler: "npm:2.7.16"
@@ -4008,7 +4008,7 @@ __metadata:
     xterm-addon-web-links: "npm:0.9.0"
     xterm-addon-webgl: "npm:0.16.0"
     yarn: "npm:1.22.18"
-  checksum: 10c0/01ef9d19fc7cbc8c6bda49e53f9deb88f58bc6639bb7da29f86305ba445d56cda539aec440c545322f08ed3023d8f0289a2cfa72e87d3aa8a24997bbab2301c6
+  checksum: 10c0/e8e5e2f5bffd1c18a5b8fd9f57cf0ea1fd1bc66b906eef132a589271bab401b698020bd2b25a68b2d2132643854bd8a7b33df395f01e8a71ce33170272b6b593
   languageName: node
   linkType: hard
 
@@ -5230,10 +5230,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.0.0, @vue/devtools-api@npm:^6.0.0-beta.11":
+"@vue/devtools-api@npm:^6.0.0-beta.11":
   version: 6.6.3
   resolution: "@vue/devtools-api@npm:6.6.3"
   checksum: 10c0/e9e712f687e901b1ecfcfb958a305db9729d37408677ea8d63189176406196c7c6d4e9580216de590ccbe68037f323c163293e917cfad3834d7f3299cd5a22bb
+  languageName: node
+  linkType: hard
+
+"@vue/devtools-api@npm:^6.6.3":
+  version: 6.6.4
+  resolution: "@vue/devtools-api@npm:6.6.4"
+  checksum: 10c0/0a993ae23618166e1bee5a7c14cebd8312752b93c143cbdd48fb2d0f7ade070d0e6baf757cd920d4681fef8f9acf29515162160f38cc7410f9a684d2df21b6de
   languageName: node
   linkType: hard
 
@@ -7201,9 +7208,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror-editor-vue3@npm:^2.7.0":
-  version: 2.7.0
-  resolution: "codemirror-editor-vue3@npm:2.7.0"
+"codemirror-editor-vue3@npm:2.7.1":
+  version: 2.7.1
+  resolution: "codemirror-editor-vue3@npm:2.7.1"
   dependencies:
     "@unocss/transformer-directives": "npm:^0.58.8"
     "@wdns/vue-code-block": "npm:^2.3.2"
@@ -7216,7 +7223,7 @@ __metadata:
     codemirror: ^5
     diff-match-patch: ^1.0.5
     vue: ^3.x
-  checksum: 10c0/0b5f4d855c81a04fece70856e5baa8387d496c7e05e0efa40918336d7b84a744d2a3758373b73c17fb345397a391b35f9f01d452a73938af312a6be5e033bc4f
+  checksum: 10c0/93a90a64122abcb3eb12d9a9044d777702f6816d09413126659d8bed80aca9c163d08567014894f38d5ef8ac43d975ad511d3da2147b85d119a89a1d5ebdc8da
   languageName: node
   linkType: hard
 
@@ -18238,14 +18245,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-router@npm:~4.0.3":
-  version: 4.0.16
-  resolution: "vue-router@npm:4.0.16"
+"vue-router@npm:4.4.3":
+  version: 4.4.3
+  resolution: "vue-router@npm:4.4.3"
   dependencies:
-    "@vue/devtools-api": "npm:^6.0.0"
+    "@vue/devtools-api": "npm:^6.6.3"
   peerDependencies:
     vue: ^3.2.0
-  checksum: 10c0/7380325c129cfea78530d2cb5a463abd33dd4767a8d8f42b77c750e24636786588f442669b7b6d5e3b006865bb246393713eddb10107134055aadd3aa2384408
+  checksum: 10c0/dc13c30367653fb441f3f6378dc64645250e55a4089c8f547ffe0e1227122fbd02da53b14ecff9711b02e44070a5495c9e97b69954386ea55fb9644dd8dbb1d3
   languageName: node
   linkType: hard
 
@@ -18301,11 +18308,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue3-test@workspace:.":
+"vue3-test-skeleton@workspace:.":
   version: 0.0.0-use.local
-  resolution: "vue3-test@workspace:."
+  resolution: "vue3-test-skeleton@workspace:."
   dependencies:
-    "@rancher/shell": "npm:^3.0.0-rc.2"
+    "@rancher/shell": "npm:^3.0.0-rc.3"
     cache-loader: "npm:^4.1.0"
     color: "npm:4.2.3"
     ip: "npm:2.0.1"
