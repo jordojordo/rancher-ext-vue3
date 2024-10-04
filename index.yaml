@@ -12,6 +12,26 @@ entries:
       catalog.cattle.io/ui-component: plugins
       catalog.cattle.io/ui-extensions-version: '>= 2.0.0'
     apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-10-04T18:25:00.802620516Z"
+    description: test-pkg2 plugin
+    digest: b3311a3d1e150c404a75cfd58a6b408c349ab2445199e31be991134c3a304a97
+    name: test-pkg2
+    type: application
+    urls:
+    - assets/test-pkg2/test-pkg2-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.9.2'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 2.0.0'
+    apiVersion: v2
     appVersion: 0.1.0
     created: "2024-10-03T17:58:10.706664594Z"
     description: test-pkg2 plugin
@@ -122,4 +142,4 @@ entries:
     urls:
     - assets/vue3-test/vue3-test-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-04T18:18:03.813464997Z"
+generated: "2024-10-04T18:25:00.801990037Z"
