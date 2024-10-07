@@ -12,7 +12,7 @@ defaults:
 
 jobs:
   build-extension-catalog:
-    uses: jordojordo/dashboard/.github/workflows/build-extension-catalog.yml@ext-docs
+    uses: rancher/dashboard/.github/workflows/build-extension-catalog.yml@master
     permissions:
       actions: write
       contents: read

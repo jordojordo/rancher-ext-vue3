@@ -12,7 +12,7 @@ defaults:
 
 jobs:
   build-extension-charts:
-    uses: jordojordo/dashboard/.github/workflows/build-extension-charts.yml@ext-docs
+    uses: rancher/dashboard/.github/workflows/build-extension-charts.yml@master
     permissions:
       actions: write
       contents: write
